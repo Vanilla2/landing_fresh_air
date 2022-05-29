@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
+import Image from '../elements/Image';
 
 const propTypes = {
   ...SectionProps.types,
@@ -62,6 +63,66 @@ const Cta = ({
                 <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
               </svg>
             </Input>
+          </div>
+        </div>
+      </div>
+      <div style = {{display: "flex", flexDirection: "column"}}>
+        <div style = {{display: "flex", justifyContent: "space-around"}}>
+          <div style = {{display: "flex", flexDirection: "column", alignItems: "center"}}>
+            <Image
+              src={require('./../../assets/images/feature-tile-icon-01.svg')}
+              alt="Features tile icon 01"
+              width={200}
+              height={200} style = {{borderRadius: "50%"}}/>
+            <p style = {{color: "red"}}>Stan Flavius</p>
+            <p>Bossul echipei</p>
+          </div>
+          <div style = {{display: "flex", flexDirection: "column", alignItems: "center"}}>
+            <Image
+              src={require('./../../assets/images/feature-tile-icon-01.svg')}
+              alt="Features tile icon 01"
+              width={200}
+              height={200} style = {{borderRadius: "50%"}}/>
+            <p style = {{color: "red"}}>Stan Flavius</p>
+            <p>Bossul echipei</p>
+          </div>
+          <div style = {{display: "flex", flexDirection: "column", alignItems: "center"}}>
+            <Image
+              src={require('./../../assets/images/feature-tile-icon-01.svg')}
+              alt="Features tile icon 01"
+              width={200}
+              height={200}style = {{borderRadius: "50%"}} />
+            <p style = {{color: "red"}}>Stan Flavius</p>
+            <p>Bossul echipei</p>
+          </div>
+        </div>
+        <div style = {{display: "flex", justifyContent: "space-around"}}>
+          <div style = {{display: "flex", flexDirection: "column", alignItems: "center"}}>
+            <Image
+              src={require('./../../assets/images/feature-tile-icon-01.svg')}
+              alt="Features tile icon 01"
+              width={200}
+              height={200} style = {{borderRadius: "50%"}}/>
+            <p style = {{color: "red"}}>Stan Flavius</p>
+            <p>Bossul echipei</p>
+          </div>
+          <div style = {{display: "flex", flexDirection: "column", alignItems: "center"}}>
+            <Image
+              src={require('./../../assets/images/feature-tile-icon-01.svg')}
+              alt="Features tile icon 01"
+              width={200}
+              height={200} style = {{borderRadius: "50%"}}/>
+            <p style = {{color: "red"}}>Stan Flavius</p>
+            <p>Bossul echipei</p>
+          </div>
+          <div style = {{display: "flex", flexDirection: "column", alignItems: "center"}}>
+            <Image
+              src={require('./../../assets/images/feature-tile-icon-01.svg')}
+              alt="Features tile icon 01"
+              width={200}
+              height={200} style = {{borderRadius: "50%"}}/>
+            <p style = {{color: "red"}}>Stan Flavius</p>
+            <p>Bossul echipei</p>
           </div>
         </div>
       </div>

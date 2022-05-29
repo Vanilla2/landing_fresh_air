@@ -119,13 +119,22 @@ const Header = ({
                       }}>Home</a>
                     </li>
                     <li>
-                      <a href="/doc/schema" >About</a>
+                      <a style = {{cursor: 'pointer'}} onClick={() => {
+                        
+                        document.getElementById("scr2").scrollIntoView({behavior: "smooth"});
+                      }} >About</a>
                     </li>
                     <li>
-                      <a href="/doc/schema" >Preview</a>
+                      <a style = {{cursor: 'pointer'}} onClick={() => {
+                        
+                        document.getElementById("scr3").scrollIntoView({behavior: "smooth"});
+                      }} >Preview</a>
                     </li>
                     <li>
-                      <a href="/doc/schema" >Plans</a>
+                      <a style = {{cursor: 'pointer'}} onClick={() => {
+                        
+                        document.getElementById("scr4").scrollIntoView({behavior: "smooth"});
+                      }} >Plans</a>
                     </li>
                   </ul>
                   {/* {!hideSignin &&

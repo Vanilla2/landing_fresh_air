@@ -54,7 +54,7 @@ const FeaturesTiles = ({
       className={outerClasses}
     >
       <div className="container">
-        <div className={innerClasses}>
+        <div className={innerClasses} id = "scr2">
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
 
