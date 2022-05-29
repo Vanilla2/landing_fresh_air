@@ -4,6 +4,12 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
 import Image from '../elements/Image';
+import SectionHeader from './partials/SectionHeader';
+
+const sectionHeader = {
+  title: 'Team',
+  paragraph: ''
+};
 
 const propTypes = {
   ...SectionProps.types,
@@ -66,7 +72,8 @@ const Cta = ({
           </div>
         </div>
       </div>
-      <div style = {{display: "flex", flexDirection: "column"}}>
+      <SectionHeader data={sectionHeader} style = {{marginTop: "100px"}}className="center-content" />
+      <div style = {{display: "flex", flexDirection: "column"}} className = "container">
         <div style = {{display: "flex", justifyContent: "space-around"}}>
           <div style = {{display: "flex", flexDirection: "column", alignItems: "center"}}>
             <Image
@@ -74,7 +81,7 @@ const Cta = ({
               alt="Features tile icon 01"
               width={200}
               height={200} style = {{borderRadius: "50%"}}/>
-            <p style = {{color: "red"}}>Stan Flavius</p>
+            <p style = {{color: "#4EC9F4"}}>Stan Flavius</p>
             <p>Bossul echipei</p>
           </div>
           <div style = {{display: "flex", flexDirection: "column", alignItems: "center"}}>
@@ -83,7 +90,7 @@ const Cta = ({
               alt="Features tile icon 01"
               width={200}
               height={200} style = {{borderRadius: "50%"}}/>
-            <p style = {{color: "red"}}>Stan Flavius</p>
+            <p style = {{color: "#4EC9F4"}}>Stan Flavius</p>
             <p>Bossul echipei</p>
           </div>
           <div style = {{display: "flex", flexDirection: "column", alignItems: "center"}}>
@@ -92,7 +99,7 @@ const Cta = ({
               alt="Features tile icon 01"
               width={200}
               height={200}style = {{borderRadius: "50%"}} />
-            <p style = {{color: "red"}}>Stan Flavius</p>
+            <p style = {{color: "#4EC9F4"}}>Stan Flavius</p>
             <p>Bossul echipei</p>
           </div>
         </div>
@@ -103,7 +110,7 @@ const Cta = ({
               alt="Features tile icon 01"
               width={200}
               height={200} style = {{borderRadius: "50%"}}/>
-            <p style = {{color: "red"}}>Stan Flavius</p>
+            <p style = {{color: "#4EC9F4"}}>Stan Flavius</p>
             <p>Bossul echipei</p>
           </div>
           <div style = {{display: "flex", flexDirection: "column", alignItems: "center"}}>
@@ -112,7 +119,7 @@ const Cta = ({
               alt="Features tile icon 01"
               width={200}
               height={200} style = {{borderRadius: "50%"}}/>
-            <p style = {{color: "red"}}>Stan Flavius</p>
+            <p style = {{color: "#4EC9F4"}}>Stan Flavius</p>
             <p>Bossul echipei</p>
           </div>
           <div style = {{display: "flex", flexDirection: "column", alignItems: "center"}}>
@@ -121,7 +128,7 @@ const Cta = ({
               alt="Features tile icon 01"
               width={200}
               height={200} style = {{borderRadius: "50%"}}/>
-            <p style = {{color: "red"}}>Stan Flavius</p>
+            <p style = {{color: "#4EC9F4"}}>Stan Flavius</p>
             <p>Bossul echipei</p>
           </div>
         </div>
